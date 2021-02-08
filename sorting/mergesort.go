@@ -4,7 +4,7 @@ func merge(l, r []float64) []float64 {
 	var m []float64
 
 	i := 0 // left iterator
-	j := 0 // rigth iterator
+	j := 0 // right iterator
 
 	for i < len(l) && j < len(r) {
 		if l[i] > r[j] {
